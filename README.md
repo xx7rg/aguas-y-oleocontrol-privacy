@@ -93,7 +93,7 @@ python scripts/validate_static.py
 
 ## Publicação
 
-O GitHub Pages publica os arquivos estáticos da branch `main`. Para atualizar o documento, altere `index.html`, valide a página localmente e envie a mudança ao repositório.
+O workflow `Deploy GitHub Pages` valida e publica os arquivos estáticos após cada envio para a branch `main`. Para atualizar o documento, altere `index.html`, execute a validação local e envie a mudança ao repositório.
 
 ## Manutenção do conteúdo
 
